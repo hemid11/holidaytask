@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body, html {
-  height: 100%;
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-}
-
 nav {
   text-align: center;
   justify-content: space-around;
@@ -35,6 +29,7 @@ nav .main li {
   margin: 30px;
 }
 nav .main li a {
+  color: #222222;
   text-decoration: none;
 }
 nav .sosial-flex {
@@ -45,6 +40,7 @@ nav .sosial-flex {
   display: flex;
 }
 nav .sosial-flex a {
+  color: #222222;
   margin: 10px;
 }
 
@@ -53,14 +49,10 @@ nav .sosial-flex a {
   padding: 20px;
 }
 #yazi .container {
-  text-decoration: none;
-  justify-content: space-around;
+  background-color: white;
+  justify-content: space-between;
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
+  width: 80%;
 }
 #yazi .container .card {
   text-align: center;
@@ -74,4 +66,10 @@ nav .sosial-flex a {
 }
 #yazi .container .card h4 {
   margin-top: 20px;
+}
+
+#carousel {
+  color: black;
+  width: auto;
+  height: 600px;
 }/*# sourceMappingURL=style.css.map */

@@ -3,10 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body, html {
-    height: 100%;
-    font-family: Montserrat, sans-serif;
-    font-weight: 400;}
+
 nav{
     text-align: center;
     justify-content: space-around;
@@ -30,6 +27,7 @@ nav{
             margin: 30px;
         }
         li a{
+            color: #222222;
             text-decoration: none;
         }
     }
@@ -40,6 +38,7 @@ nav{
         justify-content: space-around;
         display: flex;
         a{
+            color: #222222;
             margin: 10px;
         }
     }
@@ -48,16 +47,11 @@ nav{
     margin-top: 100px;
     padding: 20px;
     .container{
-        text-decoration: none;
-    justify-content: space-around;
+        background-color: white;
+    justify-content: space-between;
     display: flex; 
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
+    width: 80%;
     .card{
-
         text-align: center;
         h1{
             color: #ec1d25;
@@ -71,3 +65,8 @@ nav{
         }
     }
 }}
+#carousel{
+    color: black;
+    width: auto;
+    height: 600px;
+}
