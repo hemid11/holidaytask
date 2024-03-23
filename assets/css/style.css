@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+nav {
+  text-align: center;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-top: 15px;
+  display: flex;
+  width: 100%;
+  height: 120px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-top: 5px solid #ec1d25;
+}
+nav .pato {
+  margin-top: 15px;
+}
+nav .main {
+  list-style: none;
+  display: flex;
+}
+nav .main li {
+  margin-top: 20px;
+  margin: 30px;
+}
+nav .main li a {
+  text-decoration: none;
+}
+nav .sosial-flex {
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  justify-content: space-around;
+  display: flex;
+}
+nav .sosial-flex a {
+  margin: 10px;
+}
+
+#yazi {
+  margin-top: 100px;
+  padding: 20px;
+}
+#yazi .container {
+  text-decoration: none;
+  justify-content: space-around;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+#yazi .container .card {
+  text-align: center;
+}
+#yazi .container .card h1 {
+  color: #ec1d25;
+  margin-top: 40px;
+}
+#yazi .container .card h2 {
+  margin-top: 20px;
+}
+#yazi .container .card h4 {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
