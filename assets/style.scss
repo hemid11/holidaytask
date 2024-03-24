@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-nav{
+  }
+  
+  nav {
     text-align: center;
     justify-content: space-around;
     padding-left: 20px;
@@ -16,57 +16,139 @@ nav{
     left: 0;
     z-index: 100;
     border-top: 5px solid #ec1d25;
-    .pato{
-        margin-top: 15px;
-    }
-    .main{
-        list-style: none;
-        display: flex;
-        li{
-            margin-top: 20px;
-            margin: 30px;
-        }
-        li a{
-            color: #222222;
-            text-decoration: none;
-        }
-    }
-    .sosial-flex{
-        margin: 10px;
-        margin-top: 20px;
-        font-size: 20px;
-        justify-content: space-around;
-        display: flex;
-        a{
-            color: #222222;
-            margin: 10px;
-        }
-    }
-}
-#yazi{
+  }
+  nav .pato {
+    margin-top: 15px;
+  }
+  nav .main {
+    list-style: none;
+    display: flex;
+  }
+  nav .main li {
+    margin-top: 20px;
+    margin: 30px;
+  }
+  nav .main li a {
+    color: #222222;
+    text-decoration: none;
+  }
+  nav .sosial-flex {
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+    display: flex;
+  }
+  nav .sosial-flex a {
+    color: #222222;
+    margin: 10px;
+  }
+  
+  #yazi {
     margin-top: 100px;
     padding: 20px;
-    .container{
-        background-color: white;
+  }
+  #yazi .container {
+    background-color: white;
     justify-content: space-between;
-    display: flex; 
+    display: flex;
     width: 80%;
-    .card{
-        text-align: center;
-        h1{
-            color: #ec1d25;
-            margin-top: 40px;
-        }
-        h2{ 
-            margin-top: 20px;
-        }
-        h4{
-            margin-top: 20px;
-        }
-    }
-}}
-#carousel{
+  }
+  #yazi .container .card {
+    text-align: center;
+  }
+  #yazi .container .card h1 {
+    color: #ec1d25;
+    margin-top: 40px;
+  }
+  #yazi .container .card h2 {
+    margin-top: 20px;
+  }
+  #yazi .container .card h4 {
+    margin-top: 20px;
+  }
+  
+  #carousel {
     color: black;
     width: auto;
     height: 600px;
+  }
+  #discover{
+    margin-bottom: 20px;
+    padding: 70px;
+    height: 300px;
+    text-align: center;
+    background-image: url(../img/bg-intro-01.jpg); 
+  }
+  .disc{
+    top: 50%;
+    font-size: 30px;
+    margin-top: 30px;
+    color: red;
+  }
+  .pato1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 6px;
+  }
+.row{
+    text-align: start;
+    display: flex;
+    margin: 0 20px;
+    padding: 30px;
 }
+.row h3{
+    margin-top: 25px;
+}
+.row a{
+    color: #222222;
+    text-decoration: none;
+}
+.row1{
+    margin: 0;
+    padding: 0;
+}
+.item {
+    margin-bottom: 20px;
+}
+.col-md-12{
+    padding-top: 10px;
+}
+#form{
+    width: 100%;
+    height: 200px;
+    display: flex;
+background-color: #EFEFEF;
+
+}
+.form-inline{
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+    width: 100%;
+    display: flex;
+    button{
+        background-color:  black;
+    }
+}
+.form1{
+    width: 100%;
+    height: 200px;
+    color: black;
+}
+#form11{
+    width: 100%;
+    height: 100%;
+    display: flex;
+color: #959799;
+    background-color: #222222;
+}
+.bg1 h4{
+    color: white;
+}
+#grid{background-color: #F5F2EC;}
