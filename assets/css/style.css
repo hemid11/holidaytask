@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -177,4 +178,177 @@ nav .sosial-flex a {
 
 #grid {
   background-color: #F5F2EC;
+}
+
+#slider4 .carousel-caption h3 {
+  color: red;
+  margin-top: -170px;
+  font-size: 25px;
+}
+
+#slider4 .carousel-caption h1 {
+  margin: -30px;
+  font-size: 55px;
+}
+
+#slider4 .carousel-caption .event {
+  display: flex;
+  margin: 60px;
+}
+
+#slider4 .carousel-caption .event .imgevent {
+  max-height: 300px;
+}
+
+.container1 {
+  background-color: white;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  font-size: 10px;
+}
+
+.container1 .card1 {
+  padding: 20px;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
+}
+
+.card1 h1 {
+  color: red;
+  display: flex;
+  font-size: 10px;
+}
+
+.card1 h2 {
+  margin-top: 40px;
+}
+
+.card1 p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+#reservation {
+  background-color: #EFEFEF;
+  padding-left: 150px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#reservation .container0 {
+  width: 50%;
+  text-align: center;
+}
+
+#reservation .container0 h2 {
+  margin-top: 20px;
+  color: red;
+}
+
+#reservation .booking {
+  margin-top: 30px;
+}
+
+.container4 {
+  margin-top: 30px;
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+.container4 h3 {
+  margin-top: 0px;
+  color: black;
+  margin-top: -30px;
+}
+.container4 h4 {
+  color: red;
+  margin: 10px;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px; /* İkon etrafındaki boşluğu ayarlar */
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.container4 {
+  text-align: center;
+}
+
+.container4 .avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #ec1d25;
+}
+
+.container4 p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
+#video {
+  margin-bottom: 20px;
+  padding: 70px;
+  height: 800px;
+  text-align: center;
+  background-image: url(../img/bg-cover-video-02.jpg);
+}
+
+.disc1 {
+  color: red;
+}
+
+.pato2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 6px;
+}
+
+#video .our {
+  font-size: 40px;
+  margin-top: 270px;
+}
+
+#video .our .disc1 {
+  font-size: 30px;
+}
+
+#play-button {
+  background-color: white;
+  border: none;
+  color: black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+}
+
+#play-button:hover {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
